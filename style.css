@@ -1,0 +1,12 @@
+body {
+    background-color: black;
+    align-items:center;
+    flex: auto;
+    display: flex;
+    flex-direction: column;
+}
+#countdown {
+    color: blue;
+    font-size: 40px;
+    font-family: 'Charm', cursive;
+}
