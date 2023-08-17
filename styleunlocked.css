@@ -1,0 +1,43 @@
+body {
+    background-color: black;
+}
+
+#adelenco {
+    align-items:center;
+    flex: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.text {
+    color: blue;
+    font-size: 40px;
+    font-family: 'Charm', cursive;
+    cursor:pointer;
+}
+
+.textnotclickable {
+    color: blue;
+    font-size: 40px;
+    font-family: 'Charm', cursive;
+}
+
+.text:hover {color: lightblue;}
+
+#Mesi2022 {display: none;}
+
+#Mesi2023 {display: none;}
+
+#anno {display: none;}
+
+#back {display: none;}
+
+#Mostra {display: none;}
+
+#title {
+    align-items:center;
+    flex: auto;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1cm;
+}

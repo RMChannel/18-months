@@ -4,7 +4,7 @@ let funzione=setInterval(function() {
     let now= new Date().getTime()
     let differenza=Dateofeighteen-now
     if (differenza<=0) {
-        console.log("success")
+        window.location.replace("unlocked.html")
     }
     else {
         var giorni = Math.floor(differenza / (1000 * 60 * 60 * 24));
@@ -13,4 +13,4 @@ let funzione=setInterval(function() {
         var secondi = Math.floor((differenza % (1000 * 60)) / 1000);
         document.getElementById("countdown").innerText="Tempo residuo:\n"+giorni+"D "+ore+"H "+minuti+"M "+secondi+"S"
     }
-}, 1000)
+}, 100)
